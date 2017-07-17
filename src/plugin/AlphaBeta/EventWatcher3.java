@@ -18,16 +18,12 @@ public class EventWatcher3 implements Listener {
 	public void onPlayerSchlaf(PlayerBedEnterEvent event) {
 		Player player = event.getPlayer();
 		player.sendMessage(ChatColor.GREEN + "[AlphaBeta]" + ChatColor.GREEN + "Gute Nacht " + player.getDisplayName() + " :)");
-		
-		
 	}
 
 	@EventHandler(priority = EventPriority.NORMAL)
 	public void onPlayerErwacht(PlayerBedEnterEvent event) {
 		Player player = event.getPlayer();
 		player.sendMessage(ChatColor.GREEN + "[AlphaBeta]" + ChatColor.GREEN + "Guten Morgen " + player.getDisplayName() + " :)");
-		
 	}
-	
 	
 }

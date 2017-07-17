@@ -10,12 +10,8 @@ import org.bukkit.event.entity.PlayerDeathEvent;
 import org.bukkit.event.player.PlayerLevelChangeEvent;
 import org.bukkit.plugin.java.JavaPlugin;
 
-
 public class EventWatcher implements Listener {
-	
-	
-	
-	
+
 	public EventWatcher(JavaPlugin plugin) {
 		plugin.getServer().getPluginManager().registerEvents(this, plugin);
 	}
@@ -26,12 +22,9 @@ public class EventWatcher implements Listener {
 		player.sendMessage(ChatColor.GREEN + "[AlphaBeta]" + ChatColor.GREEN + "Hey " + player.getDisplayName() + ", du bist ein Loooser.");
 		player.sendMessage(ChatColor.YELLOW + "[AlphaBeta]" + ChatColor.AQUA +"Du bist an " + player.getFallDistance() + " M verreckt");
 		player.sendMessage(ChatColor.GRAY + "[AlphaBeta]" + ChatColor.BLUE + "Gleich wird es regnen" + ":(");
-		player.sendMessage(ChatColor.BLUE + "[AlphaBeta]" + ChatColor.AQUA + "EINE RUND MITLEID FÜR " + player.getDisplayName());
+		player.sendMessage(ChatColor.BLUE + "[AlphaBeta]" + ChatColor.AQUA + "EINE RUND MITLEID FÃœR " + player.getDisplayName());
 		player.setPlayerWeather(WeatherType.DOWNFALL);
 		player.sendMessage(ChatColor.BOLD + "[AlphaBeta]" + ChatColor.AQUA + "Und Mitleid ist schon wieder vorbei :}");
-		
-		
-		
 	}
 	
 	@EventHandler(priority = EventPriority.HIGH)
@@ -46,4 +39,3 @@ public class EventWatcher implements Listener {
 	}
 	
 }
-

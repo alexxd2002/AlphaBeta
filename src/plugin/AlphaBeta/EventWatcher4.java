@@ -17,11 +17,8 @@ public class EventWatcher4 implements Listener {
 	@EventHandler(priority = EventPriority.NORMAL)
 	public void onPlayerBook(PlayerEditBookEvent event) throws InterruptedException {
 	Player player = event.getPlayer();
-		player.sendMessage(ChatColor.AQUA + "[AlphaBeta]" + ChatColor.GREEN + "Na schreibst du etwas schönes??? ;) ");	
+		player.sendMessage(ChatColor.AQUA + "[AlphaBeta]" + ChatColor.GREEN + "Na schreibst du etwas schÃ¶nes??? ;) ");	
 		player.sendMap(null);
-	
-		
-		 
 	}
-		
+	
 }
