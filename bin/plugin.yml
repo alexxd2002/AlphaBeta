@@ -1,0 +1,18 @@
+name: AlphaBeta
+version: 1.2.7 Beta
+main: plugin.AlphaBeta.AlphaBeta
+discription: AlphaBeta Plugin for fun
+author: Alexander Meinecke
+commands:
+  AlphaBeta:
+    usage: /<command>
+    discription: Erneut probieren
+  wht_rab.obj:
+    usage: /<command>
+    discription: Erneut probieren
+  fini.obj:
+    usage: /<command>
+    discription: Erneut probiern
+  transit:
+    usage: /<command> <toPlayer>
+    discription: Erst den Befehl und danach den Spieler
